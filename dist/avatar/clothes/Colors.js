@@ -5,7 +5,7 @@ var __extends = (this && this.__extends) || (function () {
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
             function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
         return extendStatics(d, b);
-    }
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -47,6 +47,7 @@ var PastelYellow = makeColor('PastelYellow', '#FFFFB1');
 var Pink = makeColor('Pink', '#FF488E');
 var Red = makeColor('Red', '#FF5C5C');
 var White = makeColor('White', '#FFFFFF');
+var W3D = makeColor('W3D', '#220bab');
 var Colors = /** @class */ (function (_super) {
     __extends(Colors, _super);
     function Colors() {
@@ -68,7 +69,8 @@ var Colors = /** @class */ (function (_super) {
             React.createElement(PastelYellow, { maskID: this.props.maskID }),
             React.createElement(Pink, { maskID: this.props.maskID }),
             React.createElement(Red, { maskID: this.props.maskID }),
-            React.createElement(White, { maskID: this.props.maskID })));
+            React.createElement(White, { maskID: this.props.maskID }),
+            React.createElement(W3D, { maskID: this.props.maskID })));
     };
     return Colors;
 }(React.Component));

@@ -48,6 +48,10 @@ export declare class Bear extends React.Component<Props> {
     private path1;
     render(): JSX.Element;
 }
+export declare class W3DLogo extends React.Component<Props> {
+    static optionValue: string;
+    render(): JSX.Element;
+}
 export default class Graphics extends React.Component<Props> {
     render(): JSX.Element;
 }

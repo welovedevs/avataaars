@@ -5,7 +5,7 @@ var __extends = (this && this.__extends) || (function () {
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
             function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
         return extendStatics(d, b);
-    }
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -210,6 +210,22 @@ var Bear = /** @class */ (function (_super) {
     return Bear;
 }(React.Component));
 exports.Bear = Bear;
+var W3DLogo = /** @class */ (function (_super) {
+    __extends(W3DLogo, _super);
+    function W3DLogo() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    W3DLogo.prototype.render = function () {
+        return (React.createElement("g", { id: 'Clothing/Graphic/W3DLogo', stroke: "none", "stroke-width": "1", fill: "none", "fill-rule": "evenodd", mask: "url(#" + this.props.maskID + ")", "stroke-linecap": "round" },
+            React.createElement("g", { id: "Group-54-Copy", transform: "translate(10.000000, 10.000000) scale(0.5)", "stroke-width": "19.5", stroke: "#230CAE" },
+                React.createElement("g", { id: "Group-52" },
+                    React.createElement("path", { d: "M177,70.98975 L213.236262,70.98975 C235.38954,70.98975 250.695819,55.67625 250.695819,35.6979375 C250.695819,15.5165625 235.38954,0 213.236262,0 L193.5,0", id: "Stroke-1" }),
+                    React.createElement("path", { d: "M0,3.9102656 L22.5864698,71.4985781 L47.6151745,4.5993281 L72.6433188,71.4985781 L91.5754027,17.4057656 C94.268698,9.5212031 99.9153154,2.9641406 107.860705,0.798515602 C113.173883,-0.652171898 118.72243,-0.0941718982 123.553661,2.2115156 C125.947141,3.3539531 128.164094,4.9250156 130.089638,6.8932031 L130.891574,7.7122031 L131.69351,6.8932031 C136.010852,2.4910781 141.863698,0.0177656018 147.966483,0.0177656018 C154.069268,0.0177656018 159.921554,2.4910781 164.238896,6.8926406 C168.569128,11.2981406 171.000154,17.2837031 170.997352,23.5257656 C170.990628,29.7644531 168.550074,35.7472031 164.21704,40.1465156 L163.415664,40.9655156 L142.700379,62.1357656 L135.760352,69.2215781 C133.059772,71.9637656 128.698158,71.9637656 125.998138,69.2215781 L123.864124,67.0272656 L119.051946,62.1132656 L107.411822,50.2214531", id: "Stroke-3", "stroke-linejoin": "round" })))));
+    };
+    W3DLogo.optionValue = 'W3DLogo';
+    return W3DLogo;
+}(React.Component));
+exports.W3DLogo = W3DLogo;
 var Graphics = /** @class */ (function (_super) {
     __extends(Graphics, _super);
     function Graphics() {
@@ -227,7 +243,8 @@ var Graphics = /** @class */ (function (_super) {
             React.createElement(Selena, { maskID: this.props.maskID }),
             React.createElement(Bear, { maskID: this.props.maskID }),
             React.createElement(SkullOutline, { maskID: this.props.maskID }),
-            React.createElement(Skull, { maskID: this.props.maskID })));
+            React.createElement(Skull, { maskID: this.props.maskID }),
+            React.createElement(W3DLogo, { maskID: this.props.maskID })));
     };
     return Graphics;
 }(React.Component));

@@ -41,6 +41,7 @@ const PastelYellow = makeColor('PastelYellow', '#FFFFB1')
 const Pink = makeColor('Pink', '#FF488E')
 const Red = makeColor('Red', '#FF5C5C')
 const White = makeColor('White', '#FFFFFF')
+const W3D = makeColor('W3D', '#220bab')
 
 export default class Colors extends React.Component<Props> {
   render () {
@@ -61,6 +62,7 @@ export default class Colors extends React.Component<Props> {
         <Pink maskID={this.props.maskID} />
         <Red maskID={this.props.maskID} />
         <White maskID={this.props.maskID} />
+        <W3D maskID={this.props.maskID} />
       </Selector>
     )
   }
