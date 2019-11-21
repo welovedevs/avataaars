@@ -1,6 +1,5 @@
 import * as React from 'react'
-import uniqueId from 'lodash.uniqueId'
-
+import * as uniqueId from 'lodash.uniqueId'
 import Colors from './Colors'
 
 export default class ShirtCrewNeck extends React.Component {
