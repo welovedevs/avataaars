@@ -8,7 +8,7 @@ export default class Selector extends React.Component<Props> {
     static contextTypes: {
         optionContext: any;
     };
-    private readonly optionContext;
+    private get optionContext();
     componentWillMount(): void;
     componentWillUpdate(nextProps: Props & {
         children?: React.ReactNode;
