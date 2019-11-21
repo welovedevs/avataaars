@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as uniqueId from 'lodash.uniqueId'
+import * as uniqueId from 'lodash/uniqueId'
 import HatColor from './HatColor'
 
 export default class Hijab extends React.Component {

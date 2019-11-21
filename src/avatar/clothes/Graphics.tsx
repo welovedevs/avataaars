@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as uniqueId from 'lodash.uniqueId'
+import * as uniqueId from 'lodash/uniqueId'
 import { GraphicOption, Selector } from '../../options'
 
 export interface Props {

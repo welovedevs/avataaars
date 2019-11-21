@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var uniqueId = require("lodash.uniqueId");
+var uniqueId = require("lodash/uniqueId");
 var Colors_1 = require("./Colors");
 var ShirtScoopNeck = /** @class */ (function (_super) {
     __extends(ShirtScoopNeck, _super);

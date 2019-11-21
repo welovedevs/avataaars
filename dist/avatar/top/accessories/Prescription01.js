@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var uniqueId = require("lodash.uniqueId");
+var uniqueId = require("lodash/uniqueId");
 var Prescription01 = /** @class */ (function (_super) {
     __extends(Prescription01, _super);
     function Prescription01() {
